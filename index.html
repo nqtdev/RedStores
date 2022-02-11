@@ -1,367 +1,250 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RedStore</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Barber Shop</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="<link rel=" preconnect " href="https://fonts.gstatic.com ">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap " rel="stylesheet ">
-    <link rel="stylesheet " href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css ">
+    <link rel="stylesheet" href="fontawesome-free/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <div class="header ">
-        <div class="container ">
-            <div class="navbar ">
-                <div class="logo ">
-                    <img src="images/logo.png " width="125px ">
-                </div>
-                <nav>
-                    <ul>
-                        <li><a href=" ">Home</a> </li>
-                        <li><a href=" ">Products</a> </li>
-                        <li><a href=" ">About</a> </li>
-                        <li><a href=" ">Contact</a> </li>
-                        <li><a href=" ">Account</a> </li>
-                    </ul>
-                </nav>
-                <img src="images/cart.png " width="30px " height="30px ">
-            </div>
-            <div class="row ">
-                <div class="col-2 ">
-                    <h1>Give Your Workout <br> A New Style !</h1>
-                    <p>Success isn't always about greatness. It's about consistency . Consistent <br> hard work gains success . Greatness will come </p>
-                    <a href=" " class="btn ">Explore Now &#8594;</a>
-                </div>
-                <div class="col-2 ">
-                    <img src="images/image1.png " alt=" ">
-                </div>
-            </div>
+    <section id="banner">
+        <img src="./image/logo.png" class="logo">
+        <div class="banner-text">
+            <h1>Hair Studio </h1>
+            <p>Style Your Hair Your Life</p>
+            <div class="banner-btn">
+                <a href="#"><span></span> Find Out </a>
+                <a href="#"><span></span> Read More</a>
+            </div> 
         </div>
+    </section>
+    
+    <div id="sideNav">
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">FEATURES</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">TESTIMONIALS</a></li>
+                <li><a href="#">MEET US</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="menuBtn">
+        <img src="./image/menu.png" alt="" id="menu">
     </div>
 
-    <!-- featured categories -->
-    <div class="categories ">
-        <div class="small-container ">
-            <div class="row ">
-                <div class="col-3 ">
-                    <img src="images/category-1.jpg " alt=" ">
+    <!-- Features -->
+
+    <section id="feature">
+        <div class="title-text">
+            <p>FEATURES</p>
+            <h1>Why Choose Us</h1>
+        </div>
+        <div class="feature-box">
+            <div class="features">
+                <h1>Experienced Staff</h1>
+                <div class="features-desc">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="feature-text">
+                        <p>
+                            Donec eget ultricies sapi. Sed porttitor, mauris ater lob
+                            facilisis, elit aspie eleifend ligula
+                        </p>
+                    </div>
                 </div>
-                <div class="col-3 ">
-                    <img src="images/category-2.jpg " alt=" ">
+
+                <h1>Fre Booking Online</h1>
+                <div class="features-desc">
+                    <div class="feature-icon">
+                        <i class="fas fa-check"></i>
+                    </div>
+                    <div class="feature-text">
+                        <p>
+                            Donec eget ultricies sapi. Sed porttitor, mauris ater lob
+                            facilisis, elit aspie eleifend ligula
+                        </p>
+                    </div>
                 </div>
-                <div class="col-3 ">
-                    <img src="images/category-3.jpg " alt=" ">
+
+                <h1>Affordable Cost</h1>
+                <div class="features-desc">
+                    <div class="feature-icon">
+                        <i class="fas fa-rupee-sign"></i>
+                    </div>
+                    <div class="feature-text">
+                        <p>
+                            Donec eget ultricies sapi. Sed porttitor, mauris ater lob
+                            facilisis, elit aspie eleifend ligula
+                        </p>
+                    </div>
                 </div>
             </div>
+            <div class="features-img">
+                <img src="./image/barber-man.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- Service -->
+    <section id="service">
+        <div class="title-text">
+            <p>SERVICES</p>
+            <h1>We Provide Better</h1>
+        </div> 
+        <div class="service-box">
+            <div class="single-service">
+                <img src="./image/pic-1.jpg" alt="">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>Hair Styling</h3>
+                    <hr>
+                    <p>
+                        This is test under description of barber foundation
+                        this is test under description of barber foundation.
+                    </p>
+                </div>
+            </div>
+            <div class="single-service">  
+                <img src="./image/pic-2.jpg" alt="">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>Beard Trim</h3>
+                    <hr>
+                    <p>
+                        This is test under description of barber foundation
+                        this is test under description of barber foundation.
+                    </p>
+                </div>
+            </div>
+            <div class="single-service">   
+                <img src="./image/pic-3.jpg" alt="">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>Hair Cut</h3>
+                    <hr>
+                    <p>
+                        This is test under description of barber foundation
+                        this is test under description of barber foundation.
+                    </p>
+                </div>
+            </div>
+            <div class="single-service">   
+                <img src="./image/pic-4.jpg" alt="">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>Dry Shapoo</h3>
+                    <hr>
+                    <p>
+                        This is test under description of barber foundation
+                        this is test under description of barber foundation.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+    <!-- testimonial -->
+    <section id="testimonial">
+        <div class="title-text">
+            <p>TESTIMONIAL</p>
+            <h1>What Client Says</h1>
+        </div>
+        <div class="testimonial-row">
+            <div class="testimonial-col">
+                <div class="user">
+                    <img src="./image/img-1.jpg" alt="">
+                    <div class="user-info">
+                        <h4>KEN NORMAN</h4>
+                        <small>@ken norman</small>
+                    </div>
+                </div>
+                <p>
+                    Donec eget ultricies sapi. Sed porttitor, mauris ater lob facilisis, 
+                    elit sapie aleifend ligula. Donec eget 
+                    ultricies Sed porttitor, mauris ater lob facilisis, 
+                    elit sapie aleifend ligula Sed porttitor, 
+                    mauris ater lob facilisis, elit sapie aleifend ligula
+                </p>
+            </div>
+            <div class="testimonial-col">
+                <div class="user">
+                    <img src="./image/img-2.jpg" alt="">
+                    <div class="user-info">
+                        <h4>KEN NORMAN</h4>
+                        <small>@ken norman</small>
+                    </div>
+                </div>
+                <p>
+                    Donec eget ultricies sapi. Sed porttitor, mauris ater lob facilisis, 
+                    elit sapie aleifend ligula. Donec eget 
+                    ultricies Sed porttitor, mauris ater lob facilisis, 
+                    elit sapie aleifend ligula Sed porttitor, 
+                    mauris ater lob facilisis, elit sapie aleifend ligula
+                </p>
+            </div>
+            <div class="testimonial-col">
+                <div class="user">
+                    <img src="./image/img-3.jpg" alt="">
+                    <div class="user-info">
+                        <h4>KEN NORMAN</h4>
+                        <small>@ken norman</small>
+                    </div>
+                </div>
+                <p>
+                    Donec eget ultricies sapi. Sed porttitor, mauris ater lob facilisis, 
+                    elit sapie aleifend ligula. Donec eget 
+                    ultricies Sed porttitor, mauris ater lob facilisis, 
+                     elit sapie aleifend ligula Sed porttitor, 
+                    mauris ater lob facilisis, elit sapie aleifend ligula
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <section class="footer">
+        <div class="title-text">
+            <p>CONTACT</p>
+            <h1>Visit Shop Today</h1>
+        </div>
+    <div class="footer-row">
+        <div class="footer-left">
+            <h1>Opening Houser</h1>
+            <p>Monday to Friday - 9am to 9pm </p>
+            <p>Saturday and Sunday - 8am to 11pm</p>
+        </div>
+        <div class="footer-right">
+            <h1>Get In Touch</h1>
+            <p> #30 abc Ha Noi</p>
         </div>
     </div>
+    </section>
 
 
-    <!-- product -->
-    <div class="product ">
-        <!-- feature products -->
-        <div class="featured ">
-            <div class="small-container ">
-                <h2 class="title ">Featured Products</h2>
-                <div class="row ">
-                    <div class="col-4 ">
-                        <img src="images/product-1.jpg " alt=" ">
-                        <h4>Red Printed T-Shirt</h4>
-                        <div class="rating ">
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star-o "></i>
+    <script>
+        var menuBtn = document.getElementById("menuBtn")
+        var sideNav = document.getElementById("sideNav")
+        var menu = document.getElementById("menu")
 
-                        </div>
-                        <p>$50.00</p>
-                    </div>
-                    <div class="col-4 ">
-                        <img src="images/product-2.jpg " alt=" ">
-                        <h4>Red Printed T-Shirt</h4>
-                        <div class="rating ">
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star-half-o "></i>
+        sideNav.style.right = "-250px";
 
-                        </div>
-                        <p>$50.00</p>
-                    </div>
-                    <div class="col-4 ">
-                        <img src="images/product-3.jpg " alt=" ">
-                        <h4>Red Printed T-Shirt</h4>
-                        <div class="rating ">
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star-half-o "></i>
+        menuBtn.onclick = function(){
+        if(sideNav.style.right == "-250px"){
+            sideNav.style.right = "0";
+            menu.src = "./image/close.png";
+        }
+        else{
+            sideNav.style.right = "-250px"
+            menu.src = "./image/menu.png";
+        }
+    }
+    </script>
 
-                        </div>
-                        <p>$50.00</p>
-                    </div>
-                    <div class="col-4 ">
-                        <img src="images/product-4.jpg " alt=" ">
-                        <h4>Red Printed T-Shirt</h4>
-                        <div class="rating ">
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star-o "></i>
-                        </div>
-                        <p>$50.00</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Latest Products1 -->
-        <div class="latest ">
-            <div class="small-container ">
-                <h2 class="title ">Latest Products</h2>
-                <div class="row ">
-                    <div class="col-4 ">
-                        <img src="images/product-5.jpg " alt=" ">
-                        <h4>Red Printed T-Shirt</h4>
-                        <div class="rating ">
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star-o "></i>
-
-                        </div>
-                        <p>$50.00</p>
-                    </div>
-                    <div class="col-4 ">
-                        <img src="images/product-6.jpg " alt=" ">
-                        <h4>Red Printed T-Shirt</h4>
-                        <div class="rating ">
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star-half-o "></i>
-
-                        </div>
-                        <p>$50.00</p>
-                    </div>
-                    <div class="col-4 ">
-                        <img src="images/product-7.jpg " alt=" ">
-                        <h4>Red Printed T-Shirt</h4>
-                        <div class="rating ">
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star-half-o "></i>
-
-                        </div>
-                        <p>$50.00</p>
-                    </div>
-                    <div class="col-4 ">
-                        <img src="images/product-8.jpg " alt=" ">
-                        <h4>Red Printed T-Shirt</h4>
-                        <div class="rating ">
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star-o "></i>
-                        </div>
-                        <p>$50.00</p>
-                    </div>
-                </div>
-                <!-- Latest Products2 -->
-                <h2 class="title ">Latest Products</h2>
-                <div class="row ">
-                    <div class="col-4 ">
-                        <img src="images/product-9.jpg " alt=" ">
-                        <h4>Red Printed T-Shirt</h4>
-                        <div class="rating ">
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star-o "></i>
-
-                        </div>
-                        <p>$50.00</p>
-                    </div>
-                    <div class="col-4 ">
-                        <img src="images/product-10.jpg " alt=" ">
-                        <h4>Red Printed T-Shirt</h4>
-                        <div class="rating ">
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star-half-o "></i>
-
-                        </div>
-                        <p>$50.00</p>
-                    </div>
-                    <div class="col-4 ">
-                        <img src="images/product-11.jpg " alt=" ">
-                        <h4>Red Printed T-Shirt</h4>
-                        <div class="rating ">
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star-half-o "></i>
-
-                        </div>
-                        <p>$50.00</p>
-                    </div>
-                    <div class="col-4 ">
-                        <img src="images/product-12.jpg " alt=" ">
-                        <h4>Red Printed T-Shirt</h4>
-                        <div class="rating ">
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star-o "></i>
-                        </div>
-                        <p>$50.00</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- offter -->
-        <div class="offter ">
-            <div class="small-container ">
-                <div class="row ">
-                    <div class="col-2 ">
-                        <img src="images/exclusive.png " class="offter-img ">
-                    </div>
-                    <div class="col-2 ">
-                        <p>Exclusively Available On RedStore</p>
-                        <h1>Smart Band 4</h1>
-                        <small> The Mi Smart Band 4 features a 39.9% larger (than Mi Band 3 ) AMOLED color full-touch display with adjustable brightness , so everything is clear as can be.</small>
-                        <a href=" " class="btn ">Buy Now &#8594;</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- testimonial -->
-        <div class="testimonial ">
-            <div class="small-container ">
-                <div class="row ">
-                    <div class="col-3 ">
-                        <i class="fa fa-quote-left "></i>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry . Lorem Ipsum has been the industry's standard dummy text ever</p>
-                        <div class="rating ">
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star "></i>
-                        </div>
-                        <img src="images/user-1.png ">
-                        <h3>Sean Parker</h3>
-                    </div>
-                    <div class="col-3 ">
-                        <i class="fa fa-quote-left "></i>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry . Lorem Ipsum has been the industry's standard dummy text ever</p>
-                        <div class="rating ">
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star "></i>
-                        </div>
-                        <img src="images/user-2.png ">
-                        <h3>Quoc Tien</h3>
-                    </div>
-                    <div class="col-3 ">
-                        <i class="fa fa-quote-left "></i>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry . Lorem Ipsum has been the industry's standard dummy text ever</p>
-                        <div class="rating ">
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star "></i>
-                        </div>
-                        <img src="images/user-3.png ">
-                        <h3>Ahihi</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-<!-- brands -->
-    <div class="brands ">
-        <div class="small-container ">
-            <div class="row ">
-                <div class="col-5 ">
-                    <img src="images/logo-godrej.png " >
-                </div>
-                <div class="col-5 ">
-                    <img src="images/logo-oppo.png " >
-                </div>
-                <div class="col-5 ">
-                    <img src="images/logo-coca-cola.png " >
-                </div>
-                <div class="col-5 ">
-                    <img src="images/logo-paypal.png " >
-                </div>
-                <div class="col-5 ">
-                    <img src="images/logo-philips.png " >
-                </div>
-            </div>
-        </div>
-    </div>
-<!-- footer -->
-<div class=" footer ">
-    <div class=" container ">
-        <div class="row ">
-            <div class="footer-col-1 ">
-                <h3>Download Our App</h3>
-                <p>Download App for Android and Ios mobile phone.</p>
-                <div class="app-logo ">
-                    <img src="images/app-store.png " >
-                    <img src=" images/play-store.png ">
-                </div>
-            </div>
-            <div class="footer-col-2 ">
-                <img src="images/logo-white.png ">
-                <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accessible to the Many. </p>
-            </div>
-            <div class="footer-col-3 ">
-                <h3>Useful Links</h3>
-                <ul>
-                    <li>Coupons</li>
-                    <li>Block Post</li>
-                    <li>Return Policy</li>
-                    <li>Join Affiliate</li>
-                </ul>
-            </div>
-            <div class="footer-col-4 ">
-                <h3>Follow Us</h3>
-                <ul>
-                    <li>Facebook</li>
-                    <li>Twitter</li>
-                    <li>Instagram</li>
-                    <li>You Tube</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <hr>
-    <p class="copyright"> Copyright 2021 - Quoc Tien </p>
-</div>
 </body>
-    </body>
-
-</html>
+</html> 
